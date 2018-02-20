@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
                     .add(R.id.contenMainFragment, new MainFragment()).commit();
         }
 
+
     } //Main Method
 } //Main Class
