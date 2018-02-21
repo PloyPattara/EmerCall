@@ -25,6 +25,7 @@
 
                 <!--Station1-->
                 <ImageView
+                    android:clickable="true"
                     android:id="@+id/imageStation1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -57,11 +58,13 @@
 
                 <!--Station2-->
                 <ImageView
+                    android:clickable="true"
                     android:id="@+id/imageStation2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station2" />
                 <TextView
+                    android:clickable="true"
                     android:id="@+id/textViewStation2"
                     android:layout_alignParentBottom="true"
                     android:padding="2dp"
@@ -93,6 +96,7 @@
 
                 <!--Station3-->
                 <ImageView
+                    android:clickable="true"
                     android:id="@+id/imageStation3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -102,6 +106,7 @@
                     android:src="@drawable/station3" />
 
                 <TextView
+                    android:clickable="true"
                     android:id="@+id/textViewStation3"
                     android:layout_alignParentBottom="true"
                     android:padding="2dp"
@@ -128,12 +133,14 @@
 
                 <!--Station4-->
                 <ImageView
+                    android:clickable="true"
                     android:id="@+id/imageStation4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station4" />
 
                 <TextView
+                    android:clickable="true"
                     android:id="@+id/textViewStation4"
                     android:layout_alignParentBottom="true"
                     android:padding="2dp"
