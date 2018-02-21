@@ -10,7 +10,7 @@
         android:layout_centerVertical="true"
         android:background="#82ffffff"
         android:orientation="vertical"
-        android:padding="18dp">
+        android:padding="20dp">
         <!--Blue Layout-->
         <LinearLayout
             android:layout_width="wrap_content"
@@ -25,20 +25,23 @@
 
                 <!--Station1-->
                 <ImageView
+                    android:id="@+id/imageStation1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station1" />
 
                 <!--Title-->
                 <TextView
+                    android:clickable="true"
+                    android:id="@+id/textViewStation1"
                     android:layout_alignParentBottom="true"
                     android:padding="2dp"
                     android:gravity="center_horizontal"
                     android:textColor="#f9f4f4"
                     android:background="#78000000"
                     android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:text="Station 1"
+                    android:textSize="16sp"
+                    android:text="@string/station1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -54,18 +57,20 @@
 
                 <!--Station2-->
                 <ImageView
+                    android:id="@+id/imageStation2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station2" />
                 <TextView
+                    android:id="@+id/textViewStation2"
                     android:layout_alignParentBottom="true"
                     android:padding="2dp"
                     android:gravity="center_horizontal"
                     android:textColor="#f9f4f4"
                     android:background="#78000000"
                     android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:text="Station 2"
+                    android:textSize="16sp"
+                    android:text="@string/station2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -88,19 +93,24 @@
 
                 <!--Station3-->
                 <ImageView
+                    android:id="@+id/imageStation3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
                     android:src="@drawable/station3" />
 
                 <TextView
+                    android:id="@+id/textViewStation3"
                     android:layout_alignParentBottom="true"
                     android:padding="2dp"
                     android:gravity="center_horizontal"
                     android:textColor="#f9f4f4"
                     android:background="#78000000"
                     android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:text="Station 3"
+                    android:textSize="16sp"
+                    android:text="@string/station3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -118,19 +128,21 @@
 
                 <!--Station4-->
                 <ImageView
+                    android:id="@+id/imageStation4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station4" />
 
                 <TextView
+                    android:id="@+id/textViewStation4"
                     android:layout_alignParentBottom="true"
                     android:padding="2dp"
                     android:gravity="center_horizontal"
                     android:textColor="#f9f4f4"
                     android:background="#78000000"
                     android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:text="Station 4"
+                    android:textSize="16sp"
+                    android:text="@string/station4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
