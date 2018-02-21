@@ -57,6 +57,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station2" />
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:padding="2dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#f9f4f4"
+                    android:background="#78000000"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="Station 2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
             </RelativeLayout>
 
@@ -81,6 +92,18 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/station3" />
 
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:padding="2dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#f9f4f4"
+                    android:background="#78000000"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="Station 3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
             </RelativeLayout>
 
 
@@ -98,6 +121,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station4" />
+
+                <TextView
+                    android:layout_alignParentBottom="true"
+                    android:padding="2dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#f9f4f4"
+                    android:background="#78000000"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="Station 4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
             </RelativeLayout>
 
